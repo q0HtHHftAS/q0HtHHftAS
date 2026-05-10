@@ -2,7 +2,9 @@ Tech Stack
 knows
 
 <p> <img src="https://skills.syvixor.com/api/icons?i=lua,python" alt="Lua and Python" /> </p>
-learning
+LEARNING
+
 <p> <img src="https://skills.syvixor.com/api/icons?i=java" alt="Java" /> </p>
-software
+SOFTWARE
+
 <p> <img src="https://skills.syvixor.com/api/icons?i=windows,visualstudiocode,discord,googlechrome,adobephotoshop,adobepremierepro" alt="Windows, VS Code, Discord, Google Chrome, Photoshop, and Premiere" /> </p>
