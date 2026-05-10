@@ -7,4 +7,4 @@ learning
 <p> <img src="https://skillicons.dev/icons?i=java&theme=dark" alt="Java" /> </p>
 software
 
-<p> <img src="https://skillicons.dev/icons?i=windows,vscode,discord,brave&theme=dark" alt="Windows, VS Code, Discord, and google chrome" /> </p>
+<p> <img src="https://skillicons.dev/icons?i=windows,vscode,discord,chrome&theme=dark" alt="Windows, VS Code, Discord, and Google Chrome" /> </p>
