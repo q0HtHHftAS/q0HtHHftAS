@@ -1,7 +1,14 @@
-<p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a><a href="https://lua.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/lua-colored.svg" alt="Lua" title="Lua" width="36" height="36" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg" alt="Photoshop" title="Photoshop" width="36" height="36" /></a><a href="https://www.adobe.com/uk/products/premiere.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/premierepro-colored-dark.svg" alt="Premiere Pro" title="Premiere Pro" width="36" height="36" /></a>
-</p>
-
-### Socials
-
-<p align="left"> <a href="https://discord.com/users/nc98rajsc" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" title="Discord" /> </picture> </a></p>
+<h3>noo.by</h3>
+<sup>aka noobyguy, noobyguy775, nooby75</sup><br />
+i'm a sometimes-useful developer who mostly works on stuff relating to roblox & discord<br />
+i have a website @ https://n-by.me yay its so cool go check it i guess 
+<h4>languages :D</h4>
+<h5>knows</h5>
+<img src="https://skills.syvixor.com/api/icons?i=autohotkey,html,css&radius=64" >
+<h5>learning</h5>
+<img src="https://skills.syvixor.com/api/icons?i=nodejs,js,ts&radius=64" />
+<h5>libraries</h5>
+<img src="https://skills.syvixor.com/api/icons?i=react,tailwind,nextjs,discordjs,git&radius=64" />
+<h5>software</h5>
+<img src="https://skills.syvixor.com/api/icons?i=github,windows,vscode,discord,firefox&radius=64" />
+<sup>icons from https://github.com/syvixor/skills-icons</sup>
