@@ -1,7 +1,12 @@
 # My name is nc98rajsc
-just a guy from Thailand who likes making random programs for fun. I like music, nature, late night thoughts, and sometimes just doing nothing. I spend most of my time listening to songs, thinking about ideas, or playing games when I’m bored
-I like people who think differently. That’s probably why I like Elon Musk’s mindset so much. Most people thought he was crazy, but he kept going anyway
-I’m a pretty chill person honestly. Nothing special, just living life slowly and doing things I enjoy
+
+Just a guy from Thailand who likes building random programs for fun.
+
+I enjoy music, nature, late-night thoughts, and quiet places. Most of the time I’m listening to songs, working on ideas, or playing games when I need to relax.
+
+I like people who think differently and create things their own way. That’s one reason why I respect Elon Musk’s mindset so much.
+
+Still learning, still building, and just enjoying the process.
 
 
 Tech Stack
