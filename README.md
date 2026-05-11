@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&color=FFFFFF&center=true&vCenter=true&width=600&lines=just+a+random+guy+making+random+things;music+nature+and+late+night+thoughts;still+learning+still+building" />
+</p>
+
+---
+
+
 # My name is nc98rajsc
 
 Just a guy from Thailand who likes building random programs for fun.
@@ -8,14 +15,12 @@ I like people who think differently and create things their own way. That’s on
 
 Still learning, still building, and just enjoying the process.
 
-
-Tech Stack
-knows
+---
+Tech Stack:
 
 <p> <img src="https://skills.syvixor.com/api/icons?i=lua,python" alt="Lua and Python" /> </p>
-LEARNING
+SOFTWARE:
 
-<p> <img src="https://skills.syvixor.com/api/icons?i=java" alt="Java" /> </p>
-SOFTWARE
-
-<p> <img src="https://skills.syvixor.com/api/icons?i=windows,visualstudiocode,discord,googlechrome,adobephotoshop,adobepremierepro" alt="Windows, VS Code, Discord, Google Chrome, Photoshop, and Premiere" /> </p>
+<p>
+  <img src="https://skills.syvixor.com/api/icons?perline=15&i=windows,discord,visualstudiocode,googlechrome" alt="Software Icons" />
+</p>
