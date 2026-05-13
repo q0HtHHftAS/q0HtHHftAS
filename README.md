@@ -24,3 +24,5 @@ SOFTWARE:
 <p>
   <img src="https://skills.syvixor.com/api/icons?perline=15&i=windows,discord,visualstudiocode,googlechrome" alt="Software Icons" />
 </p>
+
+<img width="2105" height="701" alt="image" src="https://github.com/user-attachments/assets/864d6dff-1d81-474a-8b23-47cb2009c720" />
