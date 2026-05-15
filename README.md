@@ -1,3 +1,26 @@
 <p align="center">
-  <img src="./assets/profile-system.svg" alt="nc98rajsc profile visual - systems, automation, tools" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&color=FFFFFF&center=true&vCenter=true&width=600&lines=just+a+random+guy+making+random+things;music+nature+and+late+night+thoughts;still+learning+still+building" />
+</p>
+
+---
+
+
+# My name is nc98rajsc
+
+Just a guy from Thailand who likes building random programs for fun.
+
+I enjoy music, nature, late-night thoughts, and quiet places. Most of the time I’m listening to songs, working on ideas, or playing games when I need to relax.
+
+I like people who think differently and create things their own way. That’s one reason why I respect Elon Musk’s mindset so much.
+
+Still learning, still building, and just enjoying the process.
+
+---
+Tech Stack:
+
+<p> <img src="https://skills.syvixor.com/api/icons?i=lua,python" alt="Lua and Python" /> </p>
+SOFTWARE:
+
+<p>
+  <img src="https://skills.syvixor.com/api/icons?perline=15&i=windows,discord,visualstudiocode,googlechrome" alt="Software Icons" />
 </p>
