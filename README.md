@@ -5,21 +5,23 @@
 ---
 
 
-# My name is nc98rajsc
+# My name is nc98rajsc.
 
-Just a guy from Thailand who likes building random programs for fun.
+I am a regular guy from Thailand who likes to create programs for fun.
 
-I enjoy music, nature, late-night thoughts, and quiet places. Most of the time I’m listening to songs, working on ideas, or playing games when I need to relax.
+Most things I make are tools that help me in my life especially for games and things I use often.
 
-I like people who think differently and create things their own way. That’s one reason why I respect Elon Musk’s mindset so much.
+I don't really talk to people. On nights I listen to lofi music think about coding ideas play games or just sit around thinking.
 
-Still learning, still building, and just enjoying the process.
+I enjoy places drinking cold Coke eating simple foods like noodles and the atmosphere of late nights.
+
+I wouldn't say I am smart or talented. I am just learning things bit, by bit. Building things that seem fun to me.
 
 ---
 Tech Stack:
 
 <p> <img src="https://skills.syvixor.com/api/icons?i=lua,python" alt="Lua and Python" /> </p>
-SOFTWARE:
+Software:
 
 <p>
   <img src="https://skills.syvixor.com/api/icons?perline=15&i=windows,discord,visualstudiocode,googlechrome" alt="Software Icons" />
