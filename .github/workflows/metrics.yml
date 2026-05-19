@@ -42,7 +42,7 @@ jobs:
         if: ${{ vars.ANILIST_USER != '' && vars.MUSIC_PLAYLIST != '' }}
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.media.svg
+          filename: metrics.personal.svg
           token: NOT_NEEDED
           base: ""
           config_timezone: Asia/Bangkok
@@ -64,7 +64,7 @@ jobs:
         if: ${{ vars.ANILIST_USER != '' && vars.MUSIC_PLAYLIST == '' }}
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.media.svg
+          filename: metrics.personal.svg
           token: NOT_NEEDED
           base: ""
           config_timezone: Asia/Bangkok
@@ -82,7 +82,7 @@ jobs:
         if: ${{ vars.ANILIST_USER == '' && vars.MUSIC_PLAYLIST != '' }}
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.media.svg
+          filename: metrics.personal.svg
           token: NOT_NEEDED
           base: ""
           config_timezone: Asia/Bangkok
