@@ -17,7 +17,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            Joined GitHub 24 days ago
+                            Joined GitHub last month ago
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1112,20 +1112,20 @@
                 <div class="row fill-width">
                     <section>
                         <div style="height:8px;border-radius:4px;overflow:hidden;background:#30363d;margin:8px 0 10px 0;display:flex;width:100%">
-                            <span style="display:block;width:92.17%;background:#3572A5"></span>
-                            <span style="display:block;width:2.62%;background:#563d7c"></span>
-                            <span style="display:block;width:2.18%;background:#000080"></span>
-                            <span style="display:block;width:1.21%;background:#e34c26"></span>
-                            <span style="display:block;width:1.06%;background:#f1e05a"></span>
-                            <span style="display:block;width:0.74%;background:#012456"></span>
+                            <span style="display:block;width:86.81%;background:#3572A5"></span>
+                            <span style="display:block;width:7.30%;background:#563d7c"></span>
+                            <span style="display:block;width:2.90%;background:#000080"></span>
+                            <span style="display:block;width:0.40%;background:#e34c26"></span>
+                            <span style="display:block;width:1.67%;background:#f1e05a"></span>
+                            <span style="display:block;width:0.93%;background:#012456"></span>
                         </div>
                         <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 14px">
-                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3572A5"></span> Python <small>1.69 MB - 92.17%</small></div>
-                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#563d7c"></span> CSS <small>48.2 kB - 2.62%</small></div>
-                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#000080"></span> Lua <small>40.1 kB - 2.18%</small></div>
-                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#e34c26"></span> HTML <small>22.3 kB - 1.21%</small></div>
-                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f1e05a"></span> JavaScript <small>19.5 kB - 1.06%</small></div>
-                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#012456"></span> PowerShell <small>13.6 kB - 0.74%</small></div>
+                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3572A5"></span> Python <small>36.3k lines - 86.81%</small></div>
+                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#563d7c"></span> CSS <small>3.1k lines - 7.30%</small></div>
+                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#000080"></span> Lua <small>1.2k lines - 2.90%</small></div>
+                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#e34c26"></span> HTML <small>168 lines - 0.40%</small></div>
+                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f1e05a"></span> JavaScript <small>697 lines - 1.67%</small></div>
+                            <div><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#012456"></span> PowerShell <small>387 lines - 0.93%</small></div>
                         </div>
                     </section>
                 </div>
