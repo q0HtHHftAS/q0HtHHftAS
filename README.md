@@ -8,7 +8,7 @@
       <img src="./metrics.general.svg" alt="GitHub profile metrics" />
     </td>
     <td width="50%" valign="top">
-      <img src="./metrics.personal.svg" alt="Personal media favorites" />
+      <img src="./metrics.personal.png" alt="Personal media favorites" />
     </td>
   </tr>
 </table>
