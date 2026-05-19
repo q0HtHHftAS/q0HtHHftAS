@@ -10,8 +10,8 @@
     .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
     .line { stroke: #30363d; stroke-width: 1; }
   </style>
-  <rect class="bg" width="480" height="573" rx="8" />
-  <rect class="panel" x="0.5" y="0.5" width="479" height="572" rx="8" />
+  <rect class="bg" width="480" height="573" />
+  <rect class="panel" x="0.5" y="0.5" width="479" height="572" />
   <text class="title" x="24" y="34">Personal media</text>
   <text class="sub" x="24" y="57">Favorite anime, characters, and Spotify tracks</text>
   <g transform="translate(24 88)">
