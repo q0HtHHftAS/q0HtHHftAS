@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260">
+  <style>
+    .bg { fill: #0d1117; }
+    .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .title { fill: #2f81f7; font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .sub { fill: #8b949e; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .text { fill: #c9d1d9; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .strong { fill: #f0f6fc; font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .tiny { fill: #8b949e; font: 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .dot-blue { fill: #2f81f7; }
+    .dot-green { fill: #3fb950; }
+    .dot-yellow { fill: #d29922; }
+    .dot-red { fill: #f85149; }
+  </style>
+  <rect class="bg" width="480" height="260" rx="8" />
+  <rect class="panel" x="0.5" y="0.5" width="479" height="259" rx="8" />
+
+  <text class="title" x="24" y="34">About me</text>
+  <text class="sub" x="24" y="57">nc98rajsc | q0HtHHftAS | Thailand</text>
+
+  <g transform="translate(24 82)">
+    <rect class="card" x="0" y="0" width="432" height="52" rx="6" />
+    <circle class="dot-blue" cx="18" cy="18" r="5" />
+    <text class="strong" x="34" y="22">Focus</text>
+    <text class="text" x="34" y="40">small tools, game utilities, automation, and personal experiments</text>
+  </g>
+
+  <g transform="translate(24 144)">
+    <rect class="card" x="0" y="0" width="206" height="52" rx="6" />
+    <circle class="dot-green" cx="18" cy="18" r="5" />
+    <text class="strong" x="34" y="22">Tech Stack</text>
+    <text class="text" x="34" y="40">Lua, Python</text>
+  </g>
+
+  <g transform="translate(250 144)">
+    <rect class="card" x="0" y="0" width="206" height="52" rx="6" />
+    <circle class="dot-yellow" cx="18" cy="18" r="5" />
+    <text class="strong" x="34" y="22">Software</text>
+    <text class="text" x="34" y="40">Win, Discord, VS Code, Chrome</text>
+  </g>
+
+  <g transform="translate(24 212)">
+    <circle class="dot-red" cx="6" cy="6" r="5" />
+    <text class="tiny" x="20" y="10">late-night coding, lofi music, simple food, and building things that feel useful</text>
+  </g>
+</svg>

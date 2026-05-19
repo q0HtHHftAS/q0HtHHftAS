@@ -1,39 +1,13 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&color=FFFFFF&center=true&vCenter=true&width=600&lines=just+a+random+guy+making+random+things;music+nature+and+late+night+thoughts;still+learning+still+building" alt="Typing intro" />
-</p>
+> Building small tools for games, automation, and daily workflows.\
+> Thailand-based, mostly learning by making things that are useful or fun.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="./metrics.general.svg" alt="GitHub profile metrics" />
-    </td>
-    <td width="50%" valign="top">
-      <img src="./metrics.personal.png" alt="Personal media favorites" />
-    </td>
-  </tr>
-</table>
+[<img align="left" width="390" alt="GitHub profile metrics" src="./metrics.general.svg">](#)
+[<img align="right" width="390" alt="Personal anime, characters, and Spotify favorites" src="./metrics.personal.png">](#)
+[<img align="right" width="390" height="80" alt="" src="./placeholder.svg">](#)
 
----
+[<img align="left" width="390" alt="About nc98rajsc" src="./metrics.about.png">](#)
+[<img align="right" width="390" height="160" alt="" src="./placeholder.svg">](#)
 
-# My name is nc98rajsc.
+[<img width="100%" height="1" alt="" src="./placeholder.svg">](#)
 
-I am a regular guy from Thailand who likes to create programs for fun.
-
-Most things I make are tools that help me in my life especially for games and things I use often.
-
-I don't really talk to people. On nights I listen to lofi music think about coding ideas play games or just sit around thinking.
-
-I enjoy places drinking cold Coke eating simple foods like noodles and the atmosphere of late nights.
-
-I wouldn't say I am smart or talented. I am just learning things bit, by bit. Building things that seem fun to me.
-
----
-
-Tech Stack:
-
-<p> <img src="https://skills.syvixor.com/api/icons?i=lua,python" alt="Lua and Python" /> </p>
-Software:
-
-<p>
-  <img src="https://skills.syvixor.com/api/icons?perline=15&i=windows,discord,visualstudiocode,googlechrome" alt="Software Icons" />
-</p>
+<sub>Infographics use the [lowlighter/metrics](https://github.com/lowlighter/metrics) style. Personal media and profile details are custom and matched to my own data.</sub>
