@@ -15,7 +15,7 @@
       <a href="#"><img width="100%" alt="About nc98rajsc" src="./metrics.about.png"></a>
     </td>
     <td width="50%" valign="top">
-      <img width="100%" height="260" alt="" src="./placeholder.svg">
+      <a href="#"><img width="100%" alt="Toolbox" src="./metrics.toolbox.png"></a>
     </td>
   </tr>
 </table>
