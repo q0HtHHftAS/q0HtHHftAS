@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="573" viewBox="0 0 480 573">
   <style>
     .bg { fill: #0d1117; }
-    .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .panel { fill: none; stroke: none; }
     .title { fill: #2f81f7; font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .sub { fill: #8b949e; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .text { fill: #f0f6fc; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
