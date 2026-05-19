@@ -1,24 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520" role="img" aria-label="Media metrics setup placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="573" viewBox="0 0 480 573" role="img" aria-label="Personal media favorites">
   <style>
     .bg { fill: #0d1117; }
-    .border { fill: none; stroke: #30363d; stroke-width: 1; }
-    .title { fill: #58a6ff; font: 600 18px Arial, sans-serif; }
-    .text { fill: #8b949e; font: 14px Arial, sans-serif; }
-    .muted { fill: #6e7681; font: 12px Arial, sans-serif; }
-    .box { fill: #161b22; stroke: #30363d; }
-    .accent { fill: #238636; }
+    .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .title { fill: #58a6ff; font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .sub { fill: #8b949e; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .text { fill: #c9d1d9; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .small { fill: #8b949e; font: 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .tiny { fill: #6e7681; font: 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .link { fill: #1f6feb; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .cover1 { fill: #6f42c1; }
+    .cover2 { fill: #238636; }
+    .cover3 { fill: #d29922; }
+    .cover4 { fill: #1f6feb; }
+    .cover5 { fill: #f85149; }
+    .cover6 { fill: #8b949e; }
+    .avatar1 { fill: #f0f6fc; }
+    .avatar2 { fill: #a371f7; }
+    .spotify { fill: #1db954; }
+    .bar { fill: #30363d; }
   </style>
-  <rect class="bg" width="420" height="520" rx="8" />
-  <rect class="border" x="0.5" y="0.5" width="419" height="519" rx="8" />
-  <text class="title" x="24" y="42">Media metrics</text>
-  <text class="text" x="24" y="74">AniList and music panel</text>
-  <text class="muted" x="24" y="104">Set repo variables to make this personal.</text>
-  <rect class="box" x="24" y="136" width="372" height="96" rx="6" />
-  <text class="text" x="42" y="170">ANILIST_USER</text>
-  <text class="muted" x="42" y="198">Your AniList username for favorites and characters.</text>
-  <rect class="box" x="24" y="256" width="372" height="96" rx="6" />
-  <text class="text" x="42" y="290">MUSIC_PLAYLIST</text>
-  <text class="muted" x="42" y="318">An Apple, Spotify, or YouTube Music embed playlist URL.</text>
-  <circle class="accent" cx="42" cy="398" r="5" />
-  <text class="muted" x="58" y="403">The workflow will overwrite this file after setup.</text>
+
+  <rect class="bg" width="480" height="573" rx="8" />
+  <rect class="panel" x="0.5" y="0.5" width="479" height="572" rx="8" />
+
+  <text class="title" x="24" y="34">Personal media</text>
+  <text class="sub" x="24" y="57">Favorite anime, characters, and Spotify tracks</text>
+
+  <g transform="translate(24 88)">
+    <text class="title" x="0" y="0">Favorite anime</text>
+    <text class="small" x="0" y="20">Curated list from your profile preferences</text>
+
+    <g transform="translate(0 42)">
+      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
+      <rect class="cover1" x="10" y="9" width="36" height="36" rx="5" />
+      <text class="text" x="58" y="21">ReZero kara Hajimeru</text>
+      <text class="tiny" x="58" y="39">Isekai Seikatsu</text>
+    </g>
+    <g transform="translate(0 104)">
+      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
+      <rect class="cover2" x="10" y="9" width="36" height="36" rx="5" />
+      <text class="text" x="58" y="21">Tensei shitara Slime</text>
+      <text class="tiny" x="58" y="39">Datta Ken</text>
+    </g>
+    <g transform="translate(0 166)">
+      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
+      <rect class="cover3" x="10" y="9" width="36" height="36" rx="5" />
+      <text class="text" x="58" y="21">Class de 2-banme ni</text>
+      <text class="tiny" x="58" y="39">Kawaii Onnanoko</text>
+    </g>
+    <g transform="translate(0 228)">
+      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
+      <rect class="cover4" x="10" y="9" width="36" height="36" rx="5" />
+      <text class="text" x="58" y="21">Mushoku Tensei</text>
+      <text class="tiny" x="58" y="39">Jobless Reincarnation</text>
+    </g>
+    <g transform="translate(0 290)">
+      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
+      <rect class="cover5" x="10" y="9" width="36" height="36" rx="5" />
+      <text class="text" x="58" y="23">Code Geass</text>
+      <text class="tiny" x="58" y="41">strategy, mecha, drama</text>
+    </g>
+    <g transform="translate(0 352)">
+      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
+      <rect class="cover6" x="10" y="9" width="36" height="36" rx="5" />
+      <text class="text" x="58" y="23">Death Note</text>
+      <text class="tiny" x="58" y="41">psychological, mystery, thriller</text>
+    </g>
+  </g>
+
+  <g transform="translate(24 520)">
+    <text class="title" x="0" y="0">Favorite characters</text>
+    <g transform="translate(0 18)">
+      <circle class="avatar1" cx="14" cy="14" r="14" />
+      <text class="small" x="36" y="18">Light Yagami</text>
+      <circle class="avatar2" cx="138" cy="14" r="14" />
+      <text class="small" x="160" y="18">Lelouch vi Britannia</text>
+    </g>
+  </g>
+
+  <g transform="translate(264 88)">
+    <text class="title" x="0" y="0">Suggested tracks</text>
+    <text class="small" x="0" y="20">From Spotify</text>
+
+    <g transform="translate(0 45)">
+      <circle class="spotify" cx="12" cy="12" r="12" />
+      <text class="text" x="34" y="11">Fever</text>
+      <text class="tiny" x="34" y="28">favorite track</text>
+    </g>
+    <g transform="translate(0 92)">
+      <circle class="spotify" cx="12" cy="12" r="12" />
+      <text class="text" x="34" y="11">worry - Slowed</text>
+      <text class="tiny" x="34" y="28">favorite track</text>
+    </g>
+    <g transform="translate(0 139)">
+      <circle class="spotify" cx="12" cy="12" r="12" />
+      <text class="text" x="34" y="11">Dancing Nihilist</text>
+      <text class="tiny" x="34" y="28">favorite track</text>
+    </g>
+    <g transform="translate(0 186)">
+      <circle class="spotify" cx="12" cy="12" r="12" />
+      <text class="text" x="34" y="11">Nice 2 Know Ya</text>
+      <text class="tiny" x="34" y="28">Instrumental</text>
+    </g>
+
+    <rect class="bar" x="0" y="242" width="176" height="1" />
+    <text class="small" x="0" y="268">Static custom panel</text>
+    <text class="tiny" x="0" y="288">Use AniList or Spotify variables later</text>
+    <text class="tiny" x="0" y="304">if you want automatic updates.</text>
+  </g>
 </svg>
