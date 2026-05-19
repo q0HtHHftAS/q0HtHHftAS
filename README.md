@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&color=FFFFFF&center=true&vCenter=true&width=600&lines=just+a+random+guy+making+random+things;music+nature+and+late+night+thoughts;still+learning+still+building" />
-</p>
-
 ---
 
 <table>
@@ -14,5 +10,7 @@
     </td>
   </tr>
 </table>
+
+<img width="368" height="552" alt="image" src="https://github.com/user-attachments/assets/6d4c9ea4-c1bb-48a1-88a5-f89ba726c191" />
 
 <sub>Infographics use the [lowlighter/metrics](https://github.com/lowlighter/metrics) style. Personal media and profile details are custom and matched to my own data.</sub>
