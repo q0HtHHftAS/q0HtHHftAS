@@ -7,106 +7,87 @@
     .text { fill: #c9d1d9; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .small { fill: #8b949e; font: 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .tiny { fill: #6e7681; font: 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
-    .link { fill: #1f6feb; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
-    .cover1 { fill: #6f42c1; }
-    .cover2 { fill: #238636; }
-    .cover3 { fill: #d29922; }
-    .cover4 { fill: #1f6feb; }
-    .cover5 { fill: #f85149; }
-    .cover6 { fill: #8b949e; }
-    .avatar1 { fill: #f0f6fc; }
-    .avatar2 { fill: #a371f7; }
-    .spotify { fill: #1db954; }
-    .bar { fill: #30363d; }
+    .line { stroke: #30363d; stroke-width: 1; }
   </style>
-
   <rect class="bg" width="480" height="573" rx="8" />
   <rect class="panel" x="0.5" y="0.5" width="479" height="572" rx="8" />
-
   <text class="title" x="24" y="34">Personal media</text>
   <text class="sub" x="24" y="57">Favorite anime, characters, and Spotify tracks</text>
-
   <g transform="translate(24 88)">
     <text class="title" x="0" y="0">Favorite anime</text>
-    <text class="small" x="0" y="20">Curated list from your profile preferences</text>
-
+    <text class="small" x="0" y="20">Covers from your saved image set</text>
     <g transform="translate(0 42)">
-      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
-      <rect class="cover1" x="10" y="9" width="36" height="36" rx="5" />
-      <text class="text" x="58" y="21">ReZero kara Hajimeru</text>
-      <text class="tiny" x="58" y="39">Isekai Seikatsu</text>
+      <rect class="card" x="0" y="0" width="216" height="58" rx="6" />
+      <image href="data:image/jpeg;base64,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" width="48" height="48" x="8" y="5" />
+      <text class="text" x="66" y="22">ReZero</text>
+      <text class="tiny" x="66" y="40">Hajimeru Isekai Seikatsu</text>
     </g>
-    <g transform="translate(0 104)">
-      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
-      <rect class="cover2" x="10" y="9" width="36" height="36" rx="5" />
-      <text class="text" x="58" y="21">Tensei shitara Slime</text>
-      <text class="tiny" x="58" y="39">Datta Ken</text>
+    <g transform="translate(0 106)">
+      <rect class="card" x="0" y="0" width="216" height="58" rx="6" />
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAwADADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCfQ7zR/BOkWelwm4u9Xk/ey2dmA0jyEdGPO3sOOa7G38SRWdpbR68ttpd/c/Kln9o8x1ySFz+mT0BNea+E72Z5VsvDsEEepugM99cEySSr1wpAxEh6fXvmu00/wOi3kOo36ebcqu6RJZTKPMB+XBP8IBPHc8nNdT5b+8ZK9tDU1bVLDT9IbWNXL/ZbYECFl4YggZA789CemfSsXxhBp+oWI1S9iUNbw5gjRh96RR1IwSBn6cGgaA+pXeq32t7tRt1kSC1tc/ISnPC9OCT9SOc4rjfGXiGaK6FpLZeTaIMNHMCDyOME9OM/nW9OMIPmZy1Jzl7qOLtrhbvXLRxF8m8vtzwoUZyx9B1Ndtb+KlvFv2ktbRdFtoVeRxCA9xcDGw+x4IA5wO+awfC0eknVNWgu/tH2a7tGhikiwWj3HgKMcsTgDt1zxWfr15pzWE9ppC3KWunzKqCTDCYtkNIxHQ5GB7EVEpPlsjRRTldlPw5rV94fgbVLVkaWCYRrHIMh0YHevHY5H6GvWk+MOkTeGZ794JYdVjQi3tiN6tIeBhhxgdTnBwK8PSfGmW8TxsA0rtuHfgAY+ldZ4V+HeseJrKS4+0Q2Nps82FphkTEEjt90e9Yy5UryNEp30O68OazZ+Rbx3V9NIZwJ0Kpx5nffnpyxO4denWpPiFqWk+KdPge0e23JkziSQLKMdMA8kdc4BrE8N/2v4OAt70wicZaGFGWRmUBuRjPynJOTj6VQ1zXI/EYWSaJ4jbAlm4GU42kej5+XPoa7eSM2p6HnOvUjJ0+V+vTfzMqW7k0fRrWOCzVJrgP5EjKfmUkguCfXO0dAOT1NU0WHSLeDVpooZr0yHybV03Rgr/G4z8wB4A7kHt17DQrm51CbxBbeJyUsls03oFGYwGAjSMjp1OAO4qlqt7ommSWcMHh+3laJFQC7uGYEDOS2MDJJNZSjY6ac7+ZhaZ4UXVrqxiu76PTrC1tka5ncjdlyTtVT1OK9P0i7srC1Tw4tzNNp9qqywykgtNGwLbSBycbSSowcdq89s4pHLXF5dqojgSRsj7qnPQdvek0TxTeW8c1rol1suDIXhibALORjKk8HI455PSuSUVKV5bHfCNoabnp/iW/07R/D66rYaRDby35aI37qfMiU5A6ZPPr0BxxXlGsRutkYHkVZY3HnLnqxHCA99oPPuT6Vs26aq8N1qeu3U9wbNFEUUj8NcDLBSOhAJLGqHhjS4buQ6tetJeQRHzrhSuAXz0yepJ/x7V0UuVa7jxGHxDp8kNt91q/n/Wpt6JI9vocWnXkiLcSSC4jWRv3jEqQox1IHXrxz61y+pX72lzLcWrpJOVKNM6B8Z/ug8Dj+dei+HNBbWZLq6nLRqcALFHuYBuQgYjIGOSe+eBWZ4i+Hmmx6jEkFxPBCVd2woUFl6gD1GeDgZ6YFdE6blqnra9jxqV6EZe1XXX/L7z//2Q==" width="48" height="48" x="8" y="5" />
+      <text class="text" x="66" y="22">Tensura</text>
+      <text class="tiny" x="66" y="40">Slime Datta Ken</text>
     </g>
-    <g transform="translate(0 166)">
-      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
-      <rect class="cover3" x="10" y="9" width="36" height="36" rx="5" />
-      <text class="text" x="58" y="21">Class de 2-banme ni</text>
-      <text class="tiny" x="58" y="39">Kawaii Onnanoko</text>
+    <g transform="translate(0 170)">
+      <rect class="card" x="0" y="0" width="216" height="58" rx="6" />
+      <image href="data:image/jpeg;base64,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" width="48" height="48" x="8" y="5" />
+      <text class="text" x="66" y="22">Nibanme</text>
+      <text class="tiny" x="66" y="40">Class de 2-banme</text>
     </g>
-    <g transform="translate(0 228)">
-      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
-      <rect class="cover4" x="10" y="9" width="36" height="36" rx="5" />
-      <text class="text" x="58" y="21">Mushoku Tensei</text>
-      <text class="tiny" x="58" y="39">Jobless Reincarnation</text>
+    <g transform="translate(0 234)">
+      <rect class="card" x="0" y="0" width="216" height="58" rx="6" />
+      <image href="data:image/jpeg;base64,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" width="48" height="48" x="8" y="5" />
+      <text class="text" x="66" y="22">Mushoku Tensei</text>
+      <text class="tiny" x="66" y="40">Jobless Reincarnation</text>
     </g>
-    <g transform="translate(0 290)">
-      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
-      <rect class="cover5" x="10" y="9" width="36" height="36" rx="5" />
-      <text class="text" x="58" y="23">Code Geass</text>
-      <text class="tiny" x="58" y="41">strategy, mecha, drama</text>
+    <g transform="translate(0 298)">
+      <rect class="card" x="0" y="0" width="216" height="58" rx="6" />
+      <image href="data:image/jpeg;base64,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" width="48" height="48" x="8" y="5" />
+      <text class="text" x="66" y="23">Code Geass</text>
+      <text class="tiny" x="66" y="41">Lelouch of the Rebellion</text>
     </g>
-    <g transform="translate(0 352)">
-      <rect class="card" x="0" y="0" width="216" height="54" rx="6" />
-      <rect class="cover6" x="10" y="9" width="36" height="36" rx="5" />
-      <text class="text" x="58" y="23">Death Note</text>
-      <text class="tiny" x="58" y="41">psychological, mystery, thriller</text>
-    </g>
-  </g>
-
-  <g transform="translate(24 520)">
-    <text class="title" x="0" y="0">Favorite characters</text>
-    <g transform="translate(0 18)">
-      <circle class="avatar1" cx="14" cy="14" r="14" />
-      <text class="small" x="36" y="18">Light Yagami</text>
-      <circle class="avatar2" cx="138" cy="14" r="14" />
-      <text class="small" x="160" y="18">Lelouch vi Britannia</text>
+    <g transform="translate(0 362)">
+      <rect class="card" x="0" y="0" width="216" height="58" rx="6" />
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAwADADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDw21uJI5A6QxuR6pmvTPCWv6nZoCbWxjgY8rLn5v8AdXkk/SvL7d3EirGDuY4GBkmuv0ewvbS8xfxSQYI3GY4Y+3qB6962pStp3OXExbje2x6q/iRrawuZ/sKBFjYyIWZUYH+LBJwQBVXUL1bzw9BPJEl3C0YMaAtgNjkEA+lcd4u1+K7tre3sJJVjZTDIvTK9d30J/lisCHVLtbQQW88pa3QIkG7AkAGe3cDp3rCMLVDdxk6Cm1psZ2pXVzdXD+XHBGqnAiibYQPocGsSUPvw+8MT0bPH51pzXMOol3cbZMcORw3+96H36H2qhIrKisGOVGCPT8K0lq7hHRJGx4ORotcgvfumA+ZGzDjcCP6Vsa9dFpH8tiYmG5XHdfQnvg8Vi6HbXmpYsdOtjLcuOo6gD37Cu48eSMul6bGmmJpzTQ7LmJVGd4wSSw6jjg1MF7xcmuU89FwbkSFmOyMIB3/iFV2uGhv5RGSoMhxjqDmrmhwu89wqthtqgfLuzlgOnc+1Q38WNeaMk8MAdw56DqO30qU3z3N5qP1ZL+upoPpUz2730EDFUGZyq8DPf6GsOYhXZR93sPSvatKiafQoYo4Qv2eIDOMCXOcj3GMf5FcD4i0e3Z4zEAjImMKMb/r7iuiaTWh59Ock/eOWtr+5s0kS2neLzl2SFTjK5zj9K2v7VuLrRp7ae5mlk3BYw7kjDdTz6Y4H+1XN55zXSro0lvFGbiRYnePcmehOMhc9OR+VY8yitTrhSlUdomdYvBa6rGbqeWO3RtzGFdzMF5Ax9QKZqVza/wBrXE9m8ksMj+YrSrtYZ5IPXoeKRYmkd18o5VWzVGRNj7SCPrQ3qQtYntehX81h4GvLy9lWSWzUSeUZRlgQD09cdD+FcN4l8SadeYksElMxJO5kwoz796xbBJpY5Xedtuzu3Le3XmqlzcwJC1vDFuYtzKx6D0A7fWnqhNRlo+h//9k=" width="48" height="48" x="8" y="5" />
+      <text class="text" x="66" y="23">Death Note</text>
+      <text class="tiny" x="66" y="41">psychological thriller</text>
     </g>
   </g>
-
   <g transform="translate(264 88)">
     <text class="title" x="0" y="0">Suggested tracks</text>
     <text class="small" x="0" y="20">From Spotify</text>
-
-    <g transform="translate(0 45)">
-      <circle class="spotify" cx="12" cy="12" r="12" />
-      <text class="text" x="34" y="11">Fever</text>
-      <text class="tiny" x="34" y="28">favorite track</text>
+    <g transform="translate(0 42)">
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeAB4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDynTfD1zPbia0g8+VRlkP9KnL3Mq/Z0kmhRm2SW+8gZ9MV3vhrTH07RLRr5fJkuULJvO0g8nP5cVkeIUsrDxRvVTtYhyoOcHaP60UJuU3CS0PaWGpqnGUXvuZ2leHLS7t73UbrIs7NljWNMFriZvuoP61T1vw1f2IjnubC3SCQ7Y0ibJjI6g+v19q9C8KxM3hNoJvJGwG6h+XlZHJRWJ6E5HHpXMeINPfR7eO8bfeXVy+Z45n+RDgnpkc1z1a7lXcV0J9jGUXJm2uoaP4s0V11O5H2+CBUtE3mPy36ZB6EZxkVzWu6VemcRw2l3KsC4e4ZGO5sZJJNUdOsE80fZSIpWXKOw3bffB71tLHq8EUyDVp1QY80b2YSD3XgV6ssNUw+stkJLljzTWhs+HvENha6OttfyLbTwtHgsMh0jyduPUkmvN/EWp/2prd1dZcxvISiv2H07Vq6xfWAvBZxwSFkO1piADuz2XOMfjWHqGnNHcNmQHmsXh40pua1uZ1qmnKtj//Z" width="30" height="30" x="0" y="0" />
+      <text class="text" x="42" y="12">Fever</text>
+      <text class="tiny" x="42" y="28">Buckshot</text>
     </g>
-    <g transform="translate(0 92)">
-      <circle class="spotify" cx="12" cy="12" r="12" />
-      <text class="text" x="34" y="11">worry - Slowed</text>
-      <text class="tiny" x="34" y="28">favorite track</text>
+    <g transform="translate(0 88)">
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeAB4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDyDTNHn1idooXjTaM7pDhRk4Az9aq6hp1zpt9NZ3UZjniba6nsas6fLdWkovLOfy5Isn1yPQjuCM8e1ddLptp4paFTe21vePtwC5cw5wMMOu0k8dSB1pAYHhjwTq/iqVxYQqIY/wDWTyHCL7e59hWVqmnPpWqXVhK6PJbytEzIcqSDjivYfFmpQeGPBC+FLVzBfjYjyR5VVRQC7lh3J/PNeMXCOszLI2Xz83OeaEAwSvHnZIVz1wetdB4FvLWDxto8movi0W5QSFjgKOgJ9gcH8Kw1snfT5L0MvlJIIyM/Nk81WPAFMDr/AB/fi48T3RjvxdsrNHJKjZRsHAI7YK7fxBrknkaRizElj1Jpo5pxXFAH/9k=" width="30" height="30" x="0" y="0" />
+      <text class="text" x="42" y="12">worry - Slowed</text>
+      <text class="tiny" x="42" y="28">favorite track</text>
     </g>
-    <g transform="translate(0 139)">
-      <circle class="spotify" cx="12" cy="12" r="12" />
-      <text class="text" x="34" y="11">Dancing Nihilist</text>
-      <text class="tiny" x="34" y="28">favorite track</text>
+    <g transform="translate(0 134)">
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeAB4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCtp1wECqxABAJYr/nFdToc11NebY5w6wrhy0YweOgPciuTstMvEv0RgzRHbkgcD2Ndx4IuDql1qln5McTW0gTjguANpJ9+M/jXHyXTJg7aHGag0p1ORbi4E20lR8uK6TwHqEIubqEEbCgbGO4P/wBet6x8Oad9suZLiMSyB+QRx0pYtFtbXU5HsYUQlMHntnpXRGStyjkm1zMbYW0cekC6dUR2BwqrjAxWb4Ha3hvL+5VgZ3mLccZB7U+S5eHSgAcKDjAH0rL0FYdKS9mjDMzg7d3OMZ/xrKn8DMabvY6eLVIT4kezSRWllQvtB6Y7VLbXEN5f3dsk6iaFgXBbHWvFp9VudO19ruCRllRiVIrPl1a5luZLgyv5khyxz1rRU2aPWHKf/9k=" width="30" height="30" x="0" y="0" />
+      <text class="text" x="42" y="12">Dancing Nihilist</text>
+      <text class="tiny" x="42" y="28">favorite track</text>
     </g>
-    <g transform="translate(0 186)">
-      <circle class="spotify" cx="12" cy="12" r="12" />
-      <text class="text" x="34" y="11">Nice 2 Know Ya</text>
-      <text class="tiny" x="34" y="28">Instrumental</text>
+    <g transform="translate(0 180)">
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeAB4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDgRqdwrSSSmBFzkkRLgYA9R7CuZ1TxBd38xxIEiVjsCKFJ9zgVrahEZbKRVyW25AHciudtYI2GZD97hcCs13HuN/tC55zM3IwRWksZnt0eSPa3pWbLb+U7A9lyeK1rWdXs4+D8ox0pvyA2YJBuAYjngVkTBbe4mjQADduX8asKGdfvEcdqoTqdxbcQw7jvUFJDbq4BhIYZ3NyB/KmfaZEUYiYDHGBxTNnmypuJJBrRwjgKV6U9ED1P/9k=" width="30" height="30" x="0" y="0" />
+      <text class="text" x="42" y="12">Nice 2 Know Ya</text>
+      <text class="tiny" x="42" y="28">Instrumental</text>
     </g>
-
-    <rect class="bar" x="0" y="242" width="176" height="1" />
-    <text class="small" x="0" y="268">Static custom panel</text>
-    <text class="tiny" x="0" y="288">Use AniList or Spotify variables later</text>
-    <text class="tiny" x="0" y="304">if you want automatic updates.</text>
+    <line class="line" x1="0" y1="232" x2="176" y2="232" />
+    <text class="title" x="0" y="270">Favorite characters</text>
+    <g transform="translate(0 294)">
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeAB4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDJ8Mza7beL9O8P6nO8dvcSFAtzbkbhjIxnB5xgehNdxqXiXTNCEmk2Fre3N5E4d0ndVSINk7SQOh5wBk1Y1DwrH4gtIbm3iWOa2fzY7syupVxyCuOCQR3GKvoltNq/9rSW0YvVt5G2kDDqFyzEEfcDcAn8K8xSjVs+X8PxOqSlBtXMzQdXn1HTDNeW8VvKJWUrH9zgZGCeRwxJ+laEjeZIWmusyKAh38jjrnOeazvENnqel6bNrdp9maCFWmuraRSnLKu4oRwRk5APvXHeJtbvH1y5shfyWsUT7gsJ2kEqpxk9QMmsZYeTnboawmrabnaal4ju/DcTQyGRkQKqcACRSDgjPQYGTj+dVNKkW1+HfiHWpkb7fqlw0RkkyzlcABATzt5bA96kvY11nxnDpbRxiC3hMkJcFirnDHHPAJI/KsPVfGCTLZ6a1mwWwmV5yJP9aS3GD27/AJ11RpuF1Hr5mbmpWbO88Q3EeoaLqVkRlktI5JI+hBwBg475P6H0qk2q6QokGoy2UsnmEgXNk0jJ2PIyDnA59sGsDTtYTWH8Q680DwK8VtaiFJScxknqeOeSePWtOxtze/2pd6he3aWZvNsVvYuIPm+Yb3YcscDFb0377MGtD//Z" width="30" height="30" x="0" y="0" />
+      <text class="text" x="42" y="13">Light Yagami</text>
+      <text class="tiny" x="42" y="29">Death Note</text>
+    </g>
+    <g transform="translate(0 344)">
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeAB4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC543/5Gm7Y9UkiUcdtgrFW90+1uEbUpJFiOSFjXJcj+HPb61oeIPFOm+M7zTLrT5BBvRUnWYYMTgk4OOvGMfWmt4WdTZarcXNpJFA7SmDDHzI1BLZPG3IU4715s+V1eU9qhWVPDNXsyhdaha6g832O2jtoo3VRGJGYsNw5O7o309KjiPlXspA3dRx9a1/+Ee07XXub7SVaxurVgvkHLR4YBsM3Zjzj/exXaaFN4V8K+GNP1PU7qC3uNSiWQyTcs2RnAHYCuylNUlLS11bU87EOVaMbyvZnkvgCwYXX9oyIqW1vKCskinaZCMDA/ix1wO4Fei6hqMVpqdrNdxb9H8yWC5uG+ceYyqBwOoCj/wAeIp2mabaR6VZacrSIbS3LOUAAPOMgdznJ565PNZvi3UZ/Cc0FlbhZsp5/mSFsHdxjYCB2HOam0ZL2jZMubm5LGho2rRxxXF9s+z22oao0x3LgBPMUJn6jjPvXkPjKyu7PxZqFjeyySfZJTFAHOQsXVAPQbSK77VfEK+IPCWpRPafZ5pFKko+VBjCHI4GM8/pWHqujS61b2+s3UzTTTRxoS8hBIC4GePQVmq0Kes31ZpCnKT90/9k=" width="30" height="30" x="0" y="0" />
+      <text class="text" x="42" y="13">Lelouch vi Britannia</text>
+      <text class="tiny" x="42" y="29">Code Geass</text>
+    </g>
   </g>
 </svg>
