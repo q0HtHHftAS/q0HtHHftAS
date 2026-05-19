@@ -11,6 +11,4 @@
   </tr>
 </table>
 
-<img width="368" height="552" alt="image" src="https://github.com/user-attachments/assets/6d4c9ea4-c1bb-48a1-88a5-f89ba726c191" />
-
 <sub>Infographics use the [lowlighter/metrics](https://github.com/lowlighter/metrics) style. Personal media and profile details are custom and matched to my own data.</sub>
