@@ -1,5 +1,8 @@
-> Building small tools for games, automation, and daily workflows.\
-> Thailand-based, mostly learning by making things that are useful or fun.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&color=FFFFFF&center=true&vCenter=true&width=600&lines=just+a+random+guy+making+random+things;music+nature+and+late+night+thoughts;still+learning+still+building" />
+</p>
+
+---
 
 <table>
   <tr>
