@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: General profile metrics
-        uses: q0HtHHftAS/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.general.svg
           token: ${{ secrets.METRICS_TOKEN || github.token }}
@@ -40,7 +40,7 @@ jobs:
 
       - name: Media metrics with AniList and music
         if: ${{ vars.ANILIST_USER != '' && vars.MUSIC_PLAYLIST != '' }}
-        uses: q0HtHHftAS/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.media.svg
           token: NOT_NEEDED
@@ -62,7 +62,7 @@ jobs:
 
       - name: Media metrics with AniList only
         if: ${{ vars.ANILIST_USER != '' && vars.MUSIC_PLAYLIST == '' }}
-        uses: q0HtHHftAS/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.media.svg
           token: NOT_NEEDED
@@ -80,7 +80,7 @@ jobs:
 
       - name: Media metrics with music only
         if: ${{ vars.ANILIST_USER == '' && vars.MUSIC_PLAYLIST != '' }}
-        uses: q0HtHHftAS/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.media.svg
           token: NOT_NEEDED
