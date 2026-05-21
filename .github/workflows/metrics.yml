@@ -2,8 +2,8 @@ name: Profile Metrics
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 16 * * *"
+  # Manual only. The profile SVGs are curated after generation, and the
+  # scheduled lowlighter output overwrites the custom language/media layout.
 
 permissions:
   contents: write
