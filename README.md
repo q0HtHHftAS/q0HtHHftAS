@@ -4,3 +4,4 @@
 </p>
 
 <sub>Infographics use the [metrics](https://github.com/lowlighter/metrics) style. Personal media and profile details are custom and matched to my own data.</sub>
+
